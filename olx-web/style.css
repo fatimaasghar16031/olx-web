@@ -1,0 +1,172 @@
+body {
+    padding-top: 200px
+}
+
+header {
+    background-color: white;
+    height: 200px
+}
+
+.head2 {
+
+    font-size: 20px;
+    transition: color 0.5s;
+}
+
+.head2:hover {
+    color: blue;
+}
+
+.drop-hover {
+    transition: background-color 0.5 !important;
+}
+
+.drop-hover:hover {
+    background-color: rgb(109, 252, 204) !important;
+}
+
+.drop-content {
+    color: blue;
+}
+
+.dropdown-toggle {
+    border: 1px solid rgb(23, 21, 21);
+    border-radius: 5px;
+}
+
+.text3 {
+    color: silver;
+}
+
+.dropdown-item1 img {
+    margin-right: 8px;
+}
+
+.search {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.login {
+    font-size: 25px;
+}
+
+.box2 {
+    border: 1px solid black;
+    width: 270px;
+    height: 330px;
+}
+
+footer {
+    background-color: silver;
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+
+}
+
+.footer-lastpart {
+    background-color: teal;
+    width: 100%;
+    height: 140;
+}
+
+@media (max-width:600px) {
+    .body {
+        padding-top: 300px !important;
+    }
+
+    header {
+        height: 300px;
+    }
+
+    .head1 img {
+        width: 40px !important;
+        height: 40px !important;
+        margin-right: 8px !important;
+        margin-left: 4px !important;
+    }
+
+    .head1 h6 {
+        font-size: 13px !important;
+
+    }
+
+    .head3 {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .input-group {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+        width: 300px !important;
+    }
+
+    .form-control {
+        padding-left: 5px !important;
+        margin-left: 2px !important;
+    }
+
+    .dropdown1 {
+        margin-top: 0px !important;
+    }
+
+    .contentandimg {
+        display: flex !important;
+        flex-wrap: wrap !important;
+
+    }
+
+    .box {
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+        display: flex;
+        flex-wrap: wrap !important;
+
+
+    }
+
+    .bgimg {
+        width: 100% !important;
+    }
+
+    .box1 {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .box2 {
+        width: 265px !important;
+        margin-left: 3px !important;
+    }
+
+    .container1 {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .circleimg {
+        margin: 2px !important;
+
+
+
+    }
+
+    .main-footer {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    footer {
+        height: 730px !important;
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .footer-lastpart {
+        width: 100% !important;
+    }
+}
